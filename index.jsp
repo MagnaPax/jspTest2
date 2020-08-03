@@ -40,7 +40,8 @@
 String mid="portfolioModal1";
 String mtitle="인사관리시스템(Java)";
 String mcontent="Java 를 사용하여 인사관리 시스템과 jsp를 사용하여 포트폴리오 관리 페이지를 작성";
-String mpic="assets/img/portfolio/cabin.png";
+String mpic1="assets/img/portfolio/cabin.png";
+String mpic2="assets/img/portfolio/cabin.png";
 %>            
 <!-- modal1 잘라내서 개별로 만듬 -->                    
 <%@ include file="include/modal1.jsp" %>
@@ -52,7 +53,8 @@ String mpic="assets/img/portfolio/cabin.png";
 mid="portfolioModal2";
 mtitle="주가 분석 스크래이핑(Python)";
 mcontent="파이썬을 활용하여 KOSPI 데이터를 추출하고 정제하는 프로젝트";
-mpic="assets/img/portfolio/cake.png";
+mpic1="assets/img/portfolio/cake.png";
+mpic2="assets/img/portfolio/cake.png";
 %>            
 <!-- modal2 잘라내서 개별로 만듬 -->                    
 <%@ include file="include/modal1.jsp" %>
@@ -64,7 +66,8 @@ mpic="assets/img/portfolio/cake.png";
 mid="portfolioModal3";
 mtitle="머신러닝(Sci-Kit)";
 mcontent="머신러닝을 활용한 부동산 급등지역 분석 시각화";
-mpic="assets/img/portfolio/circus.png";
+mpic1="assets/img/portfolio/graph.png";
+mpic2="assets/img/portfolio/graph2.jpg";
 %>            
 <!-- modal2 잘라내서 개별로 만듬 -->                    
 <%@ include file="include/modal1.jsp" %>
